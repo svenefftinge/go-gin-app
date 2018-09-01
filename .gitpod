@@ -2,7 +2,7 @@ ports:
   - port: 8080
     protocol: "http"
 checkoutLocation: "src/github.com/demo-apps/go-gin-app"
-workspaceLocation: "/workspace/src/github.com/demo-apps/go-gin-app"
+workspaceLocation: "src/github.com/demo-apps/go-gin-app"
 tasks:
   - command: >
       cd /workspace/src/github.com/demo-apps/go-gin-app &&
